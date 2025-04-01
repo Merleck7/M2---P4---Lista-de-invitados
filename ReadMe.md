@@ -3,9 +3,8 @@
 Este programa busca encontrar las parejas de invitados que pueden sentarse juntos en una mesa de cena, basándose en el hecho de que sus nombres comienzan con la misma letra.
 
 ## Descripción
-
 El programa recibe una lista de nombres de invitados, la cual debe estar ordenada alfabéticamente. A continuación, se busca el primer par de invitados consecutivos cuyo nombre comienza con la misma letra. Si hay más de un par, todos serán devueltos. Si no se encuentran coincidencias, se devuelve un mensaje indicando que no hay parejas.
-
+nota: Hay dos codigos, el primero muestra solamente la primera pareja que cumple con el objetivo del ejercicio, y arroja un nnull si no encuentra ninguna pareja; mientras que el segundo hace una lista con todos los invitados.
 ## Algoritmo
 
 1. Utiliza dos punteros, uno para el inicio de la lista y otro para el siguiente elemento.
